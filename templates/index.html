@@ -1,0 +1,8 @@
+{% for post in object_list %}
+<ol>
+    <li>{{post.author}}</li>
+    <li>{{post.title}}</li>
+    <li>{{post.body}}</li>
+    <li>{{post.date}}</li>
+</ol>
+{% endfor %}
